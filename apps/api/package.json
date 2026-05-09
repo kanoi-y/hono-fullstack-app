@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@hono/node-server": "latest",
@@ -14,6 +15,7 @@
     "@libsql/client": "latest",
     "@repo/shared": "workspace:*",
     "better-auth": "latest",
+    "dotenv": "^17.4.2",
     "drizzle-orm": "latest",
     "hono": "latest",
     "zod": "latest"
