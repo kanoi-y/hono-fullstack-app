@@ -16,5 +16,9 @@
     "@biomejs/biome": "latest",
     "typescript": "latest"
   },
+  "engines": {
+    "pnpm": "10.33.0",
+    "npm": "please_use_pnpm_instead"
+  },
   "packageManager": "pnpm@10.33.0"
 }
