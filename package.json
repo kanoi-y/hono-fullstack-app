@@ -17,8 +17,8 @@
     "typescript": "latest"
   },
   "engines": {
-    "pnpm": "10.33.0",
+    "pnpm": "11.1.0",
     "npm": "please_use_pnpm_instead"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.1.0"
 }
